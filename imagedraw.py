@@ -13,6 +13,7 @@ import cv2
 import numpy as np
 from PIL import Image
 
+np.set_printoptions(threshold=np.inf)
 
 def analyze(path, value):
     im_array = np.array(Image.open(path).convert("L"))
