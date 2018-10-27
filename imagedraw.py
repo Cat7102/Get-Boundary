@@ -28,6 +28,7 @@ def analyze(path, value):
         percentage = 100 * countblack / (countblack + countwhite)
     elif value == 1:
         percentage = 100 * countwhite / (countblack + countwhite)
+    print("百分比为：",percentage,";","白色点为：",countwhite,";","总的点为：",countwhite+countblack)
     return percentage
 
 class Image_manipulate(object):
