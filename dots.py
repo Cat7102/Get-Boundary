@@ -2,11 +2,11 @@
 
 # Form implementation generated from reading ui file 'dots.ui'
 #
-# Created by: PyQt5 UI code generator 5.10.1
+# Created by: PyQt5 UI code generator 5.11.3
 #
 # WARNING! All changes made in this file will be lost!
 
-from PyQt5 import  QtWidgets
+from PyQt5 import QtWidgets
 from PyQt5.QtCore import QCoreApplication,QMetaObject,Qt
 
 class Dots(object):
@@ -59,4 +59,3 @@ class Dots(object):
         self.label_3.setText(_translate("Dialog", "所有点的坐标均以图像左上角为原点。比如显示点的坐标是（24,150）"))
         self.label_4.setText(_translate("Dialog", "而图像的宽高为100x200。则对应的其在XOY上的坐标是(24,50)"))
         self.plainTextEdit.setPlainText(str(self.dot))
-
