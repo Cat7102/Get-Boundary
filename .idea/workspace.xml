@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a500b1cf-27c5-430a-b8d9-d0ea777bdf6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dots.py" beforeDir="false" afterPath="$PROJECT_DIR$/dots.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagedraw.py" beforeDir="false" afterPath="$PROJECT_DIR$/imagedraw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dots.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dots.ui" beforeDir="false" afterPath="$PROJECT_DIR$/dots.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagedraw.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagedraw.ui" beforeDir="false" afterPath="$PROJECT_DIR$/imagedraw.ui" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,41 +18,43 @@
     <session id="-1835923076">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="30" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.16" value="5" />
-          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="3" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="556" />
-          <entry key="py" value="742" />
+          <entry key="dummy" value="10" />
+          <entry key="py" value="1110" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1298" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="1666" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -58,23 +62,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dots.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imagedraw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-520">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-              <folding>
-                <element signature="e#193#220#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="169">
+              <caret line="456" column="33" lean-forward="true" selection-start-line="456" selection-start-column="33" selection-end-line="456" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/imagedraw.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dots.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="515" column="38" selection-start-line="515" selection-start-column="38" selection-end-line="515" selection-end-column="38" />
+            <state relative-caret-position="748">
+              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+              <folding>
+                <element signature="e#193#220#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,6 +96,11 @@
     <findStrings>
       <find>第</find>
       <find>toolbox</find>
+      <find>openandclose</find>
+      <find>dots</find>
+      <find>Get Boun</find>
+      <find>scal</find>
+      <find>self.label_25</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,13 +110,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/manipulateData.py" />
+        <option value="$PROJECT_DIR$/dots__.py" />
+        <option value="$PROJECT_DIR$/dots.py" />
+        <option value="$PROJECT_DIR$/imagedraw__.py" />
         <option value="$PROJECT_DIR$/imagedraw.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="36" />
+    <option name="x" value="66" />
+    <option name="y" value="35" />
     <option name="width" value="1750" />
     <option name="height" value="1030" />
   </component>
@@ -119,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,7 +143,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,7 +225,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="imagedraw" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="imagedraw" type="PythonConfigurationType" factoryName="Python">
       <module name="Get-Boundary" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,7 +237,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imagedraw.py" />
+      <option name="SCRIPT_NAME" value="F:\Works\python\Get-Boundary\imagedraw.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,17 +268,16 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.manipulateData" />
       <item itemvalue="Python.imagedraw" />
+      <item itemvalue="Python.manipulateData" />
       <item itemvalue="Python.Python Console" />
       <item itemvalue="Python.Python Console (1)" />
       <item itemvalue="Python.dots" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.imagedraw" />
-        <item itemvalue="Python.manipulateData" />
         <item itemvalue="Python.dots" />
+        <item itemvalue="Python.manipulateData" />
         <item itemvalue="Python.Python Console (1)" />
         <item itemvalue="Python.Python Console" />
       </list>
@@ -287,13 +298,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22457068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.121983916" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -319,10 +329,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dots__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+          <folding>
+            <element signature="e#193#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dots.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-520">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="748">
+          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
           <folding>
             <element signature="e#193#220#0" expanded="true" />
           </folding>
@@ -331,8 +351,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imagedraw.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="515" column="38" selection-start-line="515" selection-start-column="38" selection-end-line="515" selection-end-column="38" />
+        <state relative-caret-position="140">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagedraw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="397" column="8" selection-start-line="397" selection-start-column="8" selection-end-line="397" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagedraw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="456" column="33" lean-forward="true" selection-start-line="456" selection-start-column="33" selection-end-line="456" selection-end-column="33" />
         </state>
       </provider>
     </entry>

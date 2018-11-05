@@ -11,9 +11,9 @@ from PyQt5.QtCore import QCoreApplication,QMetaObject,Qt
 
 class Dots(object):
     def setupUi(self, Dialog, dot, size):
-        self.dot,self.size=dot,size
+        self.dot, self.size = dot, size
         Dialog.setObjectName("Dialog")
-        Dialog.resize(400, 604)
+        Dialog.resize(492, 604)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -39,13 +39,9 @@ class Dots(object):
         self.label_3 = QtWidgets.QLabel(Dialog)
         self.label_3.setObjectName("label_3")
         self.verticalLayout.addWidget(self.label_3)
-        self.label_4 = QtWidgets.QLabel(Dialog)
-        self.label_4.setObjectName("label_4")
-        self.verticalLayout.addWidget(self.label_4)
         self.verticalLayout.setStretch(0, 1)
         self.verticalLayout.setStretch(1, 15)
         self.verticalLayout.setStretch(2, 1)
-        self.verticalLayout.setStretch(3, 1)
         self.verticalLayout_2.addLayout(self.verticalLayout)
 
         self.retranslateUi(Dialog)
@@ -54,8 +50,13 @@ class Dots(object):
     def retranslateUi(self, Dialog):
         _translate = QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
-        self.label.setText(_translate("Dialog", "图像的宽和高为："))
+        self.label.setText(_translate("Dialog", "Image Size(width,height)："))
+        self.label_2.setText(_translate("Dialog", "TextLabel"))
+        self.label_3.setText(_translate("Dialog", "The anchor is the upper left of the picture.\n"
+"So if the coordinate is (24,150).\n"
+"And the image size is 100x200.\n"
+"The coordiate that set the bottom left as anchor is(24,50)."))
+        #设置图像长宽与显示文本
         self.label_2.setText(_translate("Dialog", self.size))
-        self.label_3.setText(_translate("Dialog", "所有点的坐标均以图像左上角为原点。比如显示点的坐标是（24,150）"))
-        self.label_4.setText(_translate("Dialog", "而图像的宽高为100x200。则对应的其在XOY上的坐标是(24,50)"))
         self.plainTextEdit.setPlainText(str(self.dot))
+
