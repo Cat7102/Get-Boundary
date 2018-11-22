@@ -606,8 +606,8 @@ class Ui_Dialog(object):
 
 
     def chooseimg(self):
-        self.path, self.filetype = QtWidgets.QFileDialog.getOpenFileName(directory="D:/",
-                                                                         filter="Image Files (*.jpg)(*.jpeg)(*.png);;"
+        self.path, self.filetype = QtWidgets.QFileDialog.getOpenFileName(directory="C:/",
+                                                                         filter="Image Files (*.jpg *.jpeg *.png);;"
                                                                                 "Bmp Files (*.bmp);;"
                                                                                 "Raw Files (*.raw);;")
         self.lineEdit_11.setText(self.path)
