@@ -6,8 +6,7 @@
 #
 # WARNING! All changes made in this file will be lost!
 
-from PyQt5 import QtWidgets
-from PyQt5.QtCore import QCoreApplication,QMetaObject,Qt
+from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Dots(object):
     def setupUi(self, Dialog, dot, size):
@@ -26,7 +25,7 @@ class Dots(object):
         self.horizontalLayout = QtWidgets.QHBoxLayout()
         self.horizontalLayout.setObjectName("horizontalLayout")
         self.label = QtWidgets.QLabel(Dialog)
-        self.label.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
+        self.label.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.label.setObjectName("label")
         self.horizontalLayout.addWidget(self.label)
         self.label_2 = QtWidgets.QLabel(Dialog)
@@ -45,18 +44,17 @@ class Dots(object):
         self.verticalLayout_2.addLayout(self.verticalLayout)
 
         self.retranslateUi(Dialog)
-        QMetaObject.connectSlotsByName(Dialog)
+        QtCore.QMetaObject.connectSlotsByName(Dialog)
 
     def retranslateUi(self, Dialog):
-        _translate = QCoreApplication.translate
+        _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
-        self.label.setText(_translate("Dialog", "Image Size(width,height)："))
+        self.label.setText(_translate("Dialog", "图像大小（宽，高）："))
         self.label_2.setText(_translate("Dialog", "TextLabel"))
-        self.label_3.setText(_translate("Dialog", "The anchor is the upper left of the picture.\n"
-"So if the coordinate is (24,150).\n"
-"And the image size is 100x200.\n"
-"The coordiate that set the bottom left as anchor is(24,50)."))
+        self.label_3.setText(_translate("Dialog", "图像的默认起始点为左上角。\n"
+"所以假如坐标为 (24,150).\n"
+"图像的大小为100x200.\n"
+"以左下角为坐标原点的坐标是(24,50)."))
         #设置图像长宽与显示文本
         self.label_2.setText(_translate("Dialog", self.size))
         self.plainTextEdit.setPlainText(str(self.dot))
-

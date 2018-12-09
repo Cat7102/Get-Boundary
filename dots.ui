@@ -27,7 +27,7 @@
        <item>
         <widget class="QLabel" name="label">
          <property name="text">
-          <string>Image Size(width,height)：</string>
+          <string>图像大小（宽，高）：</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -49,10 +49,10 @@
      <item>
       <widget class="QLabel" name="label_3">
        <property name="text">
-        <string>The anchor is the upper left of the picture.
-So if the coordinate is (24,150).
-And the image size is 100x200.
-The coordiate that set the bottom left as anchor is(24,50).</string>
+        <string>图像的默认起始点为左上角。
+所以假如坐标为 (24,150).
+图像的大小为100x200.
+以左下角为坐标原点的坐标是(24,50).</string>
        </property>
       </widget>
      </item>

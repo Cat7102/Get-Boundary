@@ -44,7 +44,7 @@
             </sizepolicy>
            </property>
            <property name="text">
-            <string>Image path：</string>
+            <string>图片路径：</string>
            </property>
            <property name="scaledContents">
             <bool>false</bool>
@@ -127,7 +127,7 @@
               </sizepolicy>
              </property>
              <property name="text">
-              <string>Choose</string>
+              <string>选择</string>
              </property>
             </widget>
            </item>
@@ -157,7 +157,7 @@
          <item>
           <widget class="QLabel" name="label_2">
            <property name="text">
-            <string>Thumbnail:</string>
+            <string>缩略图：</string>
            </property>
           </widget>
          </item>
@@ -174,7 +174,7 @@
          <item>
           <widget class="QToolBox" name="toolBox">
            <property name="currentIndex">
-            <number>4</number>
+            <number>0</number>
            </property>
            <property name="tabSpacing">
             <number>7</number>
@@ -184,12 +184,12 @@
              <rect>
               <x>0</x>
               <y>0</y>
-              <width>328</width>
-              <height>591</height>
+              <width>330</width>
+              <height>614</height>
              </rect>
             </property>
             <attribute name="label">
-             <string>Gray,Threshold,Blur</string>
+             <string>灰化、二值化、模糊滤波</string>
             </attribute>
             <widget class="QFrame" name="frame">
              <property name="geometry">
@@ -216,7 +216,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Gray</string>
+               <string>灰化</string>
               </property>
              </widget>
             </widget>
@@ -245,7 +245,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Average</string>
+               <string>平均模糊</string>
               </property>
              </widget>
              <widget class="QRadioButton" name="radioButton_2">
@@ -258,7 +258,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Gaussian</string>
+               <string>高斯模糊</string>
               </property>
              </widget>
              <widget class="QRadioButton" name="radioButton_3">
@@ -271,7 +271,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Median</string>
+               <string>中值模糊</string>
               </property>
              </widget>
              <widget class="QPushButton" name="pushButton_4">
@@ -284,7 +284,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Blur</string>
+               <string>模糊</string>
               </property>
              </widget>
              <widget class="QRadioButton" name="radioButton_4">
@@ -297,7 +297,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Bilateral</string>
+               <string>双边滤波</string>
               </property>
              </widget>
              <widget class="QPushButton" name="pushButton_3">
@@ -310,7 +310,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Threshold</string>
+               <string>二值化</string>
               </property>
              </widget>
              <widget class="QLabel" name="label_5">
@@ -323,7 +323,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Blur Type：</string>
+               <string>模糊、滤波种类：</string>
               </property>
              </widget>
              <widget class="QLabel" name="label_21">
@@ -336,7 +336,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Threshold Parameter：</string>
+               <string>二值化参数：</string>
               </property>
              </widget>
              <widget class="QLineEdit" name="lineEdit_12">
@@ -387,7 +387,7 @@
                 </rect>
                </property>
                <property name="text">
-                <string>Parameter：</string>
+                <string>参数：</string>
                </property>
               </widget>
               <widget class="QLineEdit" name="lineEdit_18">
@@ -500,7 +500,7 @@
                 </rect>
                </property>
                <property name="text">
-                <string>Convolution Size:</string>
+                <string>卷积核大小:</string>
                </property>
               </widget>
               <widget class="QLabel" name="label_6">
@@ -558,7 +558,7 @@
                 </rect>
                </property>
                <property name="text">
-                <string>Kernel Size：</string>
+                <string>卷积核大小：</string>
                </property>
               </widget>
              </widget>
@@ -569,12 +569,12 @@
              <rect>
               <x>0</x>
               <y>0</y>
-              <width>328</width>
-              <height>591</height>
+              <width>330</width>
+              <height>614</height>
              </rect>
             </property>
             <attribute name="label">
-             <string>Erode and Dilate</string>
+             <string>腐蚀与膨胀</string>
             </attribute>
             <widget class="QFrame" name="frame_2">
              <property name="geometry">
@@ -601,7 +601,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Erode:</string>
+               <string>腐蚀：</string>
               </property>
              </widget>
              <widget class="QLabel" name="label_9">
@@ -614,7 +614,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Iteration：</string>
+               <string>次数：</string>
               </property>
              </widget>
              <widget class="QLineEdit" name="lineEdit_3">
@@ -640,7 +640,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Erode</string>
+               <string>腐蚀</string>
               </property>
              </widget>
              <widget class="QLabel" name="label_10">
@@ -653,7 +653,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Dilate:</string>
+               <string>膨胀：</string>
               </property>
              </widget>
              <widget class="QLineEdit" name="lineEdit_5">
@@ -679,7 +679,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Kernel Size:</string>
+               <string>卷积核大小：</string>
               </property>
              </widget>
              <widget class="QLineEdit" name="lineEdit_7">
@@ -705,7 +705,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Kernel Size：</string>
+               <string>卷积核大小：</string>
               </property>
              </widget>
              <widget class="QLineEdit" name="lineEdit_8">
@@ -731,7 +731,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Iteration：</string>
+               <string>次数：</string>
               </property>
              </widget>
              <widget class="QPushButton" name="pushButton_6">
@@ -744,7 +744,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Dilate</string>
+               <string>膨胀</string>
               </property>
              </widget>
             </widget>
@@ -754,12 +754,12 @@
              <rect>
               <x>0</x>
               <y>0</y>
-              <width>328</width>
-              <height>591</height>
+              <width>330</width>
+              <height>614</height>
              </rect>
             </property>
             <attribute name="label">
-             <string>Open Morph and Close Morph</string>
+             <string>开运算与闭运算</string>
             </attribute>
             <widget class="QFrame" name="frame_4">
              <property name="geometry">
@@ -786,7 +786,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Open Morph:Clear the noise</string>
+               <string>开运算：用于清楚噪点</string>
               </property>
              </widget>
              <widget class="QLabel" name="label_17">
@@ -799,7 +799,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Kernel Size：</string>
+               <string>卷积核大小：</string>
               </property>
              </widget>
              <widget class="QPushButton" name="pushButton_7">
@@ -812,7 +812,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Open</string>
+               <string>开运算</string>
               </property>
              </widget>
              <widget class="QLineEdit" name="lineEdit_10">
@@ -838,7 +838,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Close Morph:Fill the inner</string>
+               <string>闭运算：填充内部空洞</string>
               </property>
              </widget>
              <widget class="QPushButton" name="pushButton_8">
@@ -851,7 +851,7 @@
                </rect>
               </property>
               <property name="text">
-               <string>Close</string>
+               <string>闭运算</string>
               </property>
              </widget>
             </widget>
@@ -861,12 +861,12 @@
              <rect>
               <x>0</x>
               <y>0</y>
-              <width>328</width>
-              <height>591</height>
+              <width>330</width>
+              <height>614</height>
              </rect>
             </property>
             <attribute name="label">
-             <string>Get Contour</string>
+             <string>获取轮廓</string>
             </attribute>
             <widget class="QFrame" name="frame_5">
              <property name="geometry">
@@ -908,7 +908,7 @@
                 </rect>
                </property>
                <property name="text">
-                <string>Search Typr：</string>
+                <string>轮廓检索模式：</string>
                </property>
               </widget>
               <widget class="QRadioButton" name="radioButton_5">
@@ -921,7 +921,7 @@
                 </rect>
                </property>
                <property name="text">
-                <string>Only External</string>
+                <string>仅外层轮廓</string>
                </property>
               </widget>
               <widget class="QRadioButton" name="radioButton_6">
@@ -934,7 +934,7 @@
                 </rect>
                </property>
                <property name="text">
-                <string>List(No hierarchy)</string>
+                <string>无等级</string>
                </property>
               </widget>
               <widget class="QRadioButton" name="radioButton_7">
@@ -947,7 +947,7 @@
                 </rect>
                </property>
                <property name="text">
-                <string>Two-level hierarchy</string>
+                <string>双层等级序列</string>
                </property>
               </widget>
               <widget class="QRadioButton" name="radioButton_8">
@@ -960,7 +960,7 @@
                 </rect>
                </property>
                <property name="text">
-                <string>Full hierarchy</string>
+                <string>树状等级序列</string>
                </property>
               </widget>
              </widget>
@@ -989,7 +989,7 @@
                 </rect>
                </property>
                <property name="text">
-                <string>Contour approximation method：</string>
+                <string>轮廓点获取模式：</string>
                </property>
               </widget>
               <widget class="QRadioButton" name="radioButton_13">
@@ -1002,7 +1002,7 @@
                 </rect>
                </property>
                <property name="text">
-                <string>Store all the contour points</string>
+                <string>保存所有数据点</string>
                </property>
               </widget>
               <widget class="QRadioButton" name="radioButton_14">
@@ -1015,8 +1015,7 @@
                 </rect>
                </property>
                <property name="text">
-                <string>Compress all directions and 
-leave only end points</string>
+                <string>仅保留起始点</string>
                </property>
               </widget>
              </widget>
@@ -1031,7 +1030,7 @@ leave only end points</string>
               </rect>
              </property>
              <property name="text">
-              <string>Execute</string>
+              <string>执行</string>
              </property>
             </widget>
             <widget class="QPushButton" name="pushButton_9">
@@ -1044,7 +1043,7 @@ leave only end points</string>
               </rect>
              </property>
              <property name="text">
-              <string>Execute</string>
+              <string>执行</string>
              </property>
             </widget>
             <widget class="QFrame" name="frame_9">
@@ -1072,7 +1071,7 @@ leave only end points</string>
                </rect>
               </property>
               <property name="text">
-               <string>Contour：</string>
+               <string>轮廓编号：</string>
               </property>
              </widget>
              <widget class="QLabel" name="label_27">
@@ -1085,7 +1084,7 @@ leave only end points</string>
                </rect>
               </property>
               <property name="text">
-               <string>Line width：</string>
+               <string>轮廓线宽：</string>
               </property>
              </widget>
              <widget class="QComboBox" name="comboBox">
@@ -1159,7 +1158,7 @@ leave only end points</string>
                </rect>
               </property>
               <property name="text">
-               <string>Contours color：</string>
+               <string>轮廓颜色：</string>
               </property>
              </widget>
              <widget class="QRadioButton" name="radioButton_17">
@@ -1172,7 +1171,7 @@ leave only end points</string>
                </rect>
               </property>
               <property name="text">
-               <string>red</string>
+               <string>红</string>
               </property>
              </widget>
              <widget class="QRadioButton" name="radioButton_18">
@@ -1185,7 +1184,7 @@ leave only end points</string>
                </rect>
               </property>
               <property name="text">
-               <string>green</string>
+               <string>绿</string>
               </property>
              </widget>
              <widget class="QRadioButton" name="radioButton_19">
@@ -1198,7 +1197,7 @@ leave only end points</string>
                </rect>
               </property>
               <property name="text">
-               <string>blue</string>
+               <string>蓝</string>
               </property>
              </widget>
             </widget>
@@ -1208,12 +1207,12 @@ leave only end points</string>
              <rect>
               <x>0</x>
               <y>0</y>
-              <width>328</width>
-              <height>591</height>
+              <width>330</width>
+              <height>614</height>
              </rect>
             </property>
             <attribute name="label">
-             <string>Get Pixel Information</string>
+             <string>获取液相份数</string>
             </attribute>
             <widget class="QFrame" name="frame_10">
              <property name="geometry">
@@ -1274,7 +1273,7 @@ leave only end points</string>
                 </rect>
                </property>
                <property name="text">
-                <string>Color：</string>
+                <string>固体颜色：</string>
                </property>
               </widget>
               <widget class="QRadioButton" name="radioButton_9">
@@ -1287,7 +1286,7 @@ leave only end points</string>
                 </rect>
                </property>
                <property name="text">
-                <string>black</string>
+                <string>黑色</string>
                </property>
               </widget>
               <widget class="QRadioButton" name="radioButton_10">
@@ -1300,7 +1299,7 @@ leave only end points</string>
                 </rect>
                </property>
                <property name="text">
-                <string>white</string>
+                <string>白色</string>
                </property>
               </widget>
              </widget>
@@ -1314,7 +1313,7 @@ leave only end points</string>
                </rect>
               </property>
               <property name="text">
-               <string>Execute</string>
+               <string>执行</string>
               </property>
              </widget>
             </widget>
